@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body {
+    margin: 0px;
+    padding: 0px;
+    background: url('img/thumb-1920-785201.jpg');
+    color: white;
+  }
+  .left{
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+
+  }
+  .mid{
+    display: block;
+    width: 45%;
+    margin: 12px auto;
+  }
+  .right{
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+  }
+  
+  .container li{
+    display:inline-block;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .container li a{
+    color: white;
+    text-decoration: none;
+    padding: 9px 9px;
+  }
+  .container li a:hover{
+    color: brown;
+    background-color: cyan;
+  }
+  .container li a:active{
+    background-color: darkorange;
+    color: greenyellow;
+  }
+  .left img{
+    width: 110px;
+  }
+  .left div{
+    text-align: center;
+    font-weight: bold;
+  }
+  .last{
+    font-weight: bold;
+    margin: 0px 5px;
+    cursor: pointer;
+    padding: 5px 35px;
+    border: 0.5px solid orange;
+    border-radius: 15px;
+  }
+  .last:hover{
+    color: brown;
+    background-color: cyan;
+  }
+  .last:active{
+    background-color: darkorange;
+    color: greenyellow;
+  }
+  .contain{
+    display: inline-block;
+    border: 3.5px solid red;
+    margin: 100px 400px;
+    padding: 50px 50px;
+    width: 40%;
+    border-radius: 10px;
+  }
+  .mf input{
+    text-align: center;
+    display: block;
+    width: 33%;
+    padding: 5px 5px;
+    margin: 3.5px auto;
+    font-weight: bold;
+    background-color: skyblue;
+    border-radius: 10px;
+    border: 3px solid skyblue;
+    cursor: pointer;
+  }
+  .contain h1{
+    text-align: center;
+    color: darkorange;
+  }
+  .ms{
+    display: block;
+    width: 75px;
+    margin: auto;
+    padding: 12px 3px;
+    background-color: yellowgreen;
+    cursor: pointer;
+    border: 1.5px solid skyblue;
+    border-radius: 5px;
+  }
+  .contain button:hover{
+    background-color: tomato;
+    color: black;
+  }
+  .contain input:hover{
+    background-color: snow;
+  }
+
+</style>
+
+<body>
+<header class="abhinav">
+<div class="left">
+  <img src="img/wallpaper2you_129928.jpg" alt="">
+  <div>Abhinav Gupta.</div>
+</div>
+<div class="mid">
+  <ul class="container">
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">ABOUT-US</a></li>
+    <li><a href="#">CONTACT-US</a></li>
+    <li><a href="#">TECHNICAL-GROUP</a></li>  
+  </ul>
+</div>
+<div class="right">
+<button class="last">CALL-US</button><button class="last">MAIL-US</button>
+</div>
+</header>
+<div class="contain">
+  <h1>Please, Fill this form.</h1>
+  <form>
+    <div class="mf">
+      <input type="text" placeholder="Enter Your Name">
+    </div>
+    <div class="mf">
+      <input type="text" placeholder="Enter Your Sap-Id">
+    </div>
+    <div class="mf">
+      <input type="text" placeholder="Enter Your Roll-No.">
+    </div>
+    <div class="mf">
+      <input type="text" placeholder="Enter Your Technical-Field.">
+    </div>
+    <button class="ms">Submit</button>
+  </form>
+</div>
+</body>
+
+</html>
